@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./css/3rd-party/font-awesome.min.css">
     <!-- components -->
     <link rel="stylesheet" href="./css/components/clock.css">
+    <link rel="stylesheet" href="./css/components/form.css">
     <link rel="stylesheet" href="./css/components/mouse.css">
     <link rel="stylesheet" href="./css/components/progress-bar.css">
     <!-- pages -->
@@ -28,33 +29,6 @@
 </head>
 
 <body>
-    <section class="container hero bg-blue">
-        <div class="short-row">
-            <img class="logo" src="./img/logo.png" alt="Logo">
-            <h1 class="main-title">Coming soon</h1>
-            <p class="main-description">An awesome new company for web resources is coming very soon. Enter your email to request an early invitation!</p>
-            <div class="clock">
-                <div class="time">
-                    <div class="value">432</div>
-                    <div class="label">Days</div>
-                </div>
-                <div class="time">
-                    <div class="value">09</div>
-                    <div class="label">Hours</div>
-                </div>
-                <div class="time">
-                    <div class="value">37</div>
-                    <div class="label">Minutes</div>
-                </div>
-                <div class="time">
-                    <div class="value">39</div>
-                    <div class="label">Seconds</div>
-                </div>
-            </div>
-            <div class="mouse"></div>
-        </div>
-    </section>
-
     <section class="container">
         <div class="row">
             <div class="column">
@@ -93,7 +67,51 @@
             <div class="column right">
                 <h2 class="section-title">Have any question?</h2>
                 <p class="section-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat dicta officia perferendis facilis <a href="mailto:vardenis@pastenis.lt">vardenis@pastenis.lt</a>, quas error sit consectetur aliquid iusto. Laborum eveniet laboriosam veniam facere provident ipsum!</p>
+                <form action="/">
+                    <div class="cell-1">
+                        <label for="">Name</label>
+                        <input type="text">
+                    </div>
+                    <div class="cell-1">
+                        <label for="">Email</label>
+                        <input type="text">
+                    </div>
+                    <div class="cell-2">
+                        <label for="">Message</label>
+                        <textarea name="" id=""></textarea>
+                    </div>
+                    <div class="cell-2">
+                        <button>Send message</button>
+                    </div>
+                </form>
             </div>
+        </div>
+    </section>
+
+    <section class="container hero bg-blue">
+        <div class="short-row">
+            <img class="logo" src="./img/logo.png" alt="Logo">
+            <h1 class="main-title">Coming soon</h1>
+            <p class="main-description">An awesome new company for web resources is coming very soon. Enter your email to request an early invitation!</p>
+            <div class="clock">
+                <div class="time">
+                    <div class="value">432</div>
+                    <div class="label">Days</div>
+                </div>
+                <div class="time">
+                    <div class="value">09</div>
+                    <div class="label">Hours</div>
+                </div>
+                <div class="time">
+                    <div class="value">37</div>
+                    <div class="label">Minutes</div>
+                </div>
+                <div class="time">
+                    <div class="value">39</div>
+                    <div class="label">Seconds</div>
+                </div>
+            </div>
+            <div class="mouse"></div>
         </div>
     </section>
 
